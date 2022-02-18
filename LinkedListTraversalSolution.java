@@ -30,7 +30,7 @@ public class LinkedListTraversalSolution {
 		}
 
 		System.out.println(head.val);
-		LinkedListTraversal(head.next);
+		LinkedListTraversalRecursive(head.next);
 
 		return head;
 	}
@@ -127,7 +127,8 @@ public class LinkedListTraversalSolution {
 
 		// System.out.println(new
 		// LinkedListTraversalSolution().LinkedListSumIterative(n1));
-		System.out.println(new LinkedListTraversalSolution().LinkedListSumRecursive(n1));
+		// System.out.println(new
+		// LinkedListTraversalSolution().LinkedListSumRecursive(n1));
 
 	}
 
